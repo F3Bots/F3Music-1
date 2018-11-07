@@ -374,7 +374,7 @@ j = 1;
         client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
 }, ms);    
     
-});
+
 
 
 
