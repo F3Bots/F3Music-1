@@ -23,7 +23,7 @@ client.user.setGame(`*Fuck OFF`,"http://twitch.tv/S-F")
   console.log('╚[════════════]╝')
   console.log('')
   console.log('')
-});
+
 
 const Util = require('discord.js');
 const getYoutubeID = require('get-youtube-id');
@@ -373,7 +373,9 @@ j = 1;
        i = i+j;    
         client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
 }, ms);    
-    
+   
+});
+ 
 
 
 
