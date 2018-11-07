@@ -1,6 +1,8 @@
+
+
 const Discord = require('discord.js');
 
-const Util = require('discord.js');
+const client = new Discord.Client();
 
 const getYoutubeID = require('get-youtube-id');
 
@@ -317,12 +319,12 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (R)**')
-        .addField('Rplay', 'لتشغيل اغنية')
-        .addField('Rskip', 'تخطي الأغنية')
-        .addField('Rpause', 'ايقاف الاغنية مؤقتا')
-        .addField('Rresume', 'تكملة الاغنية')
-        .addField('Rqueue', 'اظهار قائمة التشغيل')
-        .addField('Rnp', 'اظهار الاغنية اللي انت مشغلها حاليا')
+        .addField('1play', 'لتشغيل اغنية')
+        .addField('1skip', 'تخطي الأغنية')
+        .addField('1pause', 'ايقاف الاغنية مؤقتا')
+        .addField('1resume', 'تكملة الاغنية')
+        .addField('1queue', 'اظهار قائمة التشغيل')
+        .addField('1np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('Edited by :! - Mdax . ')
       message.channel.send(helpEmbed);
     }
@@ -336,7 +338,7 @@ client.on('message', message => {
 
 client.on('ready', function(){    
     var ms = 40000 ;    
-    var setGame = [`Nigga.Music`,"1play"];    
+    var setGame = [`NIGGA•|•MUSIC { 1 }`,"1play"];    
     var i = -1;    
     var j = 0;    
     setInterval(function (){    
